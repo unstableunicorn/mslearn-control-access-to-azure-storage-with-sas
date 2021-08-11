@@ -1,11 +1,13 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Configuration; 
 
 using Azure.Storage.Blobs;
 using Azure.Storage.Blobs.Models;
-
+using Azure.Storage.Sas;
+using Azure.Storage;
 
 namespace patientrecords.Controllers
 {
